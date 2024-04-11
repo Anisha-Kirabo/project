@@ -1,0 +1,37 @@
+
+
+.sidebar {
+    background-color: #f4f4f4; 
+    padding: 20px; 
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    cursor: pointer; 
+  }
+  
+  .sidebar-item img {
+    width: 30px; 
+    margin-right: 10px; 
+  }
+  
+  .sidebar-item p {
+    margin: 0; 
+    font-size: 16px; 
+    color: #333; 
+  }
+
+  @media(max-width:800px){
+    .sidebar{
+        padding: 30px 0px;
+        flex-direction: row;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        justify-content: center;
+
+    }
+  }
+  
